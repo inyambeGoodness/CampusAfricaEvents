@@ -270,6 +270,7 @@ nav {
     position: relative;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
     gap: 1rem;
     place-content: center;
   }
@@ -280,22 +281,22 @@ nav {
     border-radius: 10px;
   }
   .image__container img:nth-child(1) {
-    transform: translateY(10px);
+    /*transform: translateY(10px);*/
     height: 100%;
-    box-sizing: content-box;
+
   }
   
   .image__container img:nth-child(2) {
+    /*transform: translateY(10px);*/
     height: 100%;
-    transform: translateY(10px);
   }
   
   .image__container img:nth-child(3) {
-    transform: translateY(10px);
+    /*transform: translateY(10px);*/
     /*transform: translateX(290px);*/
     height: 100%;
-    margin-top: 0.3rem;
-    margin-left: 50%;
+    margin-top: 10%;
+    margin-left: 55%;
   }
 
   .image__container img {
