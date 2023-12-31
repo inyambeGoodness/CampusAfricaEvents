@@ -274,7 +274,7 @@ nav {
     gap: 1rem;
     place-content: center;
   }
-  .image__container img, ul{
+  .image__container img {
     width: 100%;
     max-width: 300px;
     margin: auto;
@@ -295,14 +295,15 @@ nav {
     /*transform: translateY(10px);*/
     /*transform: translateX(290px);*/
     height: 50%;
-    margin-top: 0.5rem;
+    margin-top: 5%;
+    margin-left: 55%;
   }
 
-  .image__container ul {
+  /*.image__container ul {
     height: 50%;
     margin-bottom: 4.5rem;
     margin-left: 2rem;
-  }
+  }*/
 
   .image__container img {
     transform: translateY(0) !important;
