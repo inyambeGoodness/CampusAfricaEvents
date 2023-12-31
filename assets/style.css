@@ -230,7 +230,7 @@ nav {
   }
 
   .container {
-    max-width: 900px;
+   /*max-width: 900px;*/
     grid-template-columns: repeat(1, 1fr);
     margin: auto;
     padding: 1rem;
@@ -268,10 +268,10 @@ nav {
   .image__container {
     /*grid-area: 1/1/2/2;*/
     position: relative;
-   display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   gap: 1rem;
-   place-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    place-content: center;
   }
   .image__container img {
     width: 100%;
@@ -280,17 +280,18 @@ nav {
     border-radius: 10px;
   }
   .image__container img:nth-child(1) {
-    /*transform: translateY(70px);*/
+    transform: translateY(10px);
     height: 100%;
+    box-sizing: content-box;
   }
   
   .image__container img:nth-child(2) {
     height: 100%;
-    /*transform: translateY(-70px);*/
+    transform: translateY(10px);
   }
   
   .image__container img:nth-child(3) {
-    /*transform: translateY(-70px);*/
+    transform: translateY(10px);
     /*transform: translateX(290px);*/
     height: 100%;
     margin-top: 0.3rem;
