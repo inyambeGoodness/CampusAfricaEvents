@@ -312,7 +312,6 @@ nav {
     grid-template-rows: 1fr;
     gap: 1rem;
     place-content: center;
-    margin-bottom: 5%;
   }
   .image__container img {
     width: 100%;
@@ -352,6 +351,7 @@ nav {
   .grid__socials {
     /*max-width: var(--max-width);*/
     margin: auto;
+    margin-top: 10%;
     /*padding: 1rem;*/
     /*min-height: calc(100vh - 100px);*/
     display: grid;
