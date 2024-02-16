@@ -325,34 +325,26 @@ nav {
   }
   .image__container img:nth-child(1) {
     /*transform: translateY(10px);*/
-    height: 50%;
+    height: auto;
     
   }
   
   .image__container img:nth-child(2) {
     /*transform: translateY(10px);*/
-    height: 50%;
   }
   
   .image__container img:nth-child(3) {
     /*transform: translateY(10px);*/
     /*transform: translateX(290px);*/
-    height: 50%;
     margin-top: auto;
     
     /*margin-left: 55%;*/
   }
   .image__container img:nth-child(4) {
-    height: 50%;
   }
-  .image__container img:nth-child(5) {
-    height: 50%;
-  }
-  .image__container img:nth-child(6) {
-    height: 50%;
-  }
+  .image__container img:nth-child(5) {}
+  .image__container img:nth-child(6) {}
   .image__container img:nth-child(7) {
-    height: 50%;
     visibility: hidden;
   }
 
